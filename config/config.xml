@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.obigo.com/ces2020/OBIGO/C300/ecodriving" version="0.4.4" viewmodes="fullscreen">
+  <icon src="icon.png"/>
+  <author>Obigo</author>
+  <license>Obigo</license>
+  <content src="index.html" type="text/html"/>
+  <thumbnail src="thumbnail.png"/>
+  <name short="Eco Challenger">Eco Challenger</name>
+  <description>Eco Challenger</description>
+  <access origin="*"/>
+  <meta-data>
+    <manifest-version>1.2.1.1</manifest-version>
+    <driving-restriction content="allowed:partially"></driving-restriction>
+    <store-id>COM.OBIGO.COMMON.ECO</store-id>
+  </meta-data>
+  <gadgets>
+    <gadget size="l" description="l">
+      <content src="gadgets/large/index.html" type="text/html"/>
+      <preview src="gadgets/large/preview.png"/>
+    </gadget>
+    <gadget size="m" description="m">
+      <content src="gadgets/medium/index.html" type="text/html"/>
+      <preview src="gadgets/medium/preview.png"/>
+    </gadget>
+    <gadget size="s" description="s">
+      <content src="gadgets/small/index.html" type="text/html"/>
+      <preview src="gadgets/small/preview.png"/>
+    </gadget>
+  </gadgets>
+  <feature name="http://www.obigo.com/api/applicationmanager.getownerapplication" required="true">
+    <param name="version" value="3.1.5.7"/>
+  </feature>
+  <feature name="http://www.obigo.com/api/SVG" required="true">
+    <param name="version" value="1.1.0.0"/>
+  </feature>
+  <feature name="http://www.obigo.com/api/vehicle" required="true">
+    <param name="version" value="2.1.2.1" />
+  </feature>
+  <feature name="http://www.obigo.com/api/storage" required="true">
+    <param name="version" value="1.1.0.0"/>
+  </feature>
+  <feature name="http://www.obigo.com/api/network" required="true">
+    <param name="version" value="1.1.0.0"/>
+  </feature>
+</widget>
