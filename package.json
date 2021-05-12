@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "chart.js": "^2.7.1",
+    "chart.js": "^2.9.4",
     "obigo-js-core": "file:obigo_lib/obigo-js-core-2.4.2.tgz",
     "obigo-js-ui-rnbs": "file:obigo_lib/obigo-js-ui-rnbs-1.0.20.tar.gz",
     "obigo-js-ui-rnbs-7pd": "file:obigo_lib/obigo-js-ui-rnbs-7pd-1.0.18.tgz",
